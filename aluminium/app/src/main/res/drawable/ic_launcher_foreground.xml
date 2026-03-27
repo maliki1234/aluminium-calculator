@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple ruler/measure icon for the launcher -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background -->
+    <path android:fillColor="#1565C0" android:pathData="M0,0 H108 V108 H0 Z" />
+    <!-- Ruler body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,40 H88 V68 H20 Z" />
+    <!-- Ruler ticks -->
+    <path
+        android:strokeColor="#1565C0"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M30,40 V52 M42,40 V48 M54,40 V52 M66,40 V48 M78,40 V52" />
+    <!-- "mm" label -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M34,58 Q34,55 37,55 Q40,55 40,58 Q40,61 37,61 Q34,61 34,58 Z" />
+</vector>

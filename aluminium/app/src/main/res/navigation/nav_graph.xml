@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inputFragment">
+
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="com.aluminium.calculator.ui.input.InputFragment"
+        android:label="Input"
+        tools:layout="@layout/fragment_input"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_input_to_result"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_input_to_saved"
+            app:destination="@id/savedJobsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.aluminium.calculator.ui.result.ResultFragment"
+        android:label="Results"
+        tools:layout="@layout/fragment_result"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_result_to_saved"
+            app:destination="@id/savedJobsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/savedJobsFragment"
+        android:name="com.aluminium.calculator.ui.saved.SavedJobsFragment"
+        android:label="Saved Jobs"
+        tools:layout="@layout/fragment_saved_jobs"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_saved_to_result"
+            app:destination="@id/resultFragment" />
+
+    </fragment>
+
+</navigation>

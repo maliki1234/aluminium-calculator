@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colours (steel-blue / aluminium tone) -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_container">#BBDEFB</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="secondary">#00796B</color>
+    <color name="secondary_container">#B2DFDB</color>
+
+    <color name="tertiary">#6A1B9A</color>
+    <color name="tertiary_container">#E1BEE7</color>
+
+    <color name="surface">#FAFAFA</color>
+    <color name="surface_dark">#121212</color>
+
+    <color name="error_red">#B00020</color>
+    <color name="error_red_dark">#CF6679</color>
+
+    <!-- Night mode -->
+    <color name="primary_night">#90CAF9</color>
+    <color name="secondary_night">#80CBC4</color>
+</resources>

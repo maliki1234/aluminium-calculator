@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kiswahili translations -->
+<resources>
+    <string name="app_name">Kikokotoo cha Alumini</string>
+    <string name="calculate">KOKOTOA</string>
+    <string name="copy_results">NAKILI MATOKEO</string>
+    <string name="save_job">HIFADHI KAZI</string>
+    <string name="saved_jobs">Kazi Zilizohifadhiwa</string>
+    <string name="results">Matokeo</string>
+    <string name="no_saved_jobs">Hakuna kazi zilizohifadhiwa</string>
+</resources>

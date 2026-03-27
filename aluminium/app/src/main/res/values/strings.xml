@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aluminium Calculator Pro</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="copy_results">COPY RESULTS</string>
+    <string name="save_job">SAVE JOB</string>
+    <string name="saved_jobs">Saved Jobs</string>
+    <string name="results">Results</string>
+    <string name="no_saved_jobs">No saved jobs yet</string>
+</resources>
